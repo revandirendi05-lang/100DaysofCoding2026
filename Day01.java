@@ -1,17 +1,16 @@
-/**
- * Contoh penggunaan komentar dalam Java.
+/** 
+ * ini di sebut javadoc comment yang biasanya di gunakan mendokumentasikan class.
  */
 public class Main {
 
     public static void main(String[] args) {
 
-        // Menampilkan nama pengguna
+        // untuk komentar satu baris
         String nama = "Rendi Revandi";
 
-        /*
-         * Kecamatan karossa.
-         * Kabupaten mamuju tengah
-         * Provinsi Sulawesi barat.
+        /* 
+         * untuk komentat yang 
+         * terdiri dari beberapa baris
          */
         System.out.println("Halo, " + nama);
 
