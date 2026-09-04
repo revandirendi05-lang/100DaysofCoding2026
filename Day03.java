@@ -1,5 +1,5 @@
 public class struktoko {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
      // Data barang 
      String Barang1 = "Le Mineral";
      String Barang2 = "Minyak Bimoli";
@@ -24,19 +24,21 @@ public class struktoko {
      System.out.println("01\t" + Barang1 + "\t\tRp" + Harga1);
      System.out.println("02\t" + Barang2 + "\t\tRp" + Harga2);
      System.out.println("03\t" + Barang3 + "\t\tRp" + Harga3);
-     System.out.println("04\t" + Barang4 + "\t\tRp" + Harga4);
+     System.out.println("04\t" + Barang4 + "\t\t\tRp" + Harga4);
      System.out.println("05\t" + Barang5 + "\t\tRp" + Harga5);
 
      System.out.println("-------------------------------------------------");
 
      // Total 
 
-     System.out.println("Total\t\t\tRp" + Total);
+     System.out.println("Total\t\t\t\tRp" + Total);
 
      System.out.println("\nLokasi Toko:");
      System.out.println("C:\\Toko Biru");
 
-     System.out.println("\n\"Terima kasih telah belanja dikami!");
+     System.out.println("\n\"Terima kasih telah belanja dikamin\b\"!");
+
+     System.out.println("\'Semoga hari anda menyenangkan\'");
 
     /*
     * \n untuk baris baru
@@ -44,6 +46,8 @@ public class struktoko {
     * \" untuk menampilkan tanda petik
     * \\ untuk memasukan (\) kedalam teks
     * \r untuk kembali ke baris awal 
+    * \b menghapus satu karakter dibelakang kusor
+    * \' untuk menampilkan tanda ('')
      */
     }
 }
