@@ -31,8 +31,8 @@ public static void main(String[] args) {
  System.out.println("Umur            =\t" + umur + " tahun");
  System.out.println("Tahun Kelahiran =\t" + thnkelahiran);
  System.out.println("Jenis Kelamin   =\t" + jenisKelamin);
- System.out.println("Nomor Absen     =\t" + NIS);
- System.out.println("Nomor Induk     =\t" + NISN);
+ System.out.println("NIS             =\t" + NIS);
+ System.out.println("NISN            =\t" + NISN);
  System.out.println("Tinggi Badan    =\t" + tinggi + " cm");
  System.out.println("Berat Badan     =\t" + berat + " kg");
  System.out.println("QUIS            =\t" + QUIZ);
