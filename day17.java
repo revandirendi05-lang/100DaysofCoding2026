@@ -8,6 +8,8 @@ public class day17 {
         System.out.print("masukan nilai awal: ");
         byte nilai = rr.nextByte();
 
+        byte nilaiAwal = nilai;
+
         // OPERATOR PENUGASAN
         nilai += 10;
         nilai -= 5;
@@ -15,7 +17,7 @@ public class day17 {
         nilai /= 9;
         nilai %= 3;
 
-        System.out.println("Nilai awal  :" + nilai);
+        System.out.println("Nilai awal  :" + nilaiAwal);
         System.out.println("Nilai akhir :" + nilai);
 
     }
