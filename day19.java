@@ -13,7 +13,7 @@ public class day19 {
         byte nilai1 = (byte)nilai;
 
         System.out.println("Sebelum koversi =\t" + nilai);
-        System.out.println("Sebelum koversi =\t" + nilai1);
+        System.out.println("Sesudah koversi =\t" + nilai1);
 
     }
 
